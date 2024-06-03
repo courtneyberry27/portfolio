@@ -1,18 +1,18 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Quicksand:wght@300..700&display=swap');
 /*Variables CSS*/
 :root {
   /*colors*/
   /*color mode HSL(hue sat lightness)*/
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  --first-color: hsl(353, 58%, 48%);
+  --title-color: hsl(353, 58%, 46%);
+  --text-color: hsl(353, 55%, 37%);
+  --body-color: hsl(339, 40%, 89%);
   --container-color: #fff;
 
   /*font and typography*/
   /*.5rem = 8px | 1rem = 16px*/
-  --body-font:  "Poetsen One", sans-serif;
+  --body-font:  "Quicksand", sans-serif;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -26,7 +26,7 @@
   --font-bold: 700;
 
   /*boxshadow*/
-  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  --shadow: 0px 5px 20px 0px rgba(76, 21, 24, 0.1);
 
   /*border*/
   --border-radius: 20px;
@@ -149,6 +149,6 @@ img {
   }
 }
 
-.btn::hover {
+.btn:hover {
   animation: button-push 0.3s linear 1;
 }

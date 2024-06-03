@@ -1,12 +1,12 @@
 import React from 'react';
 import './sidebar.css';
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.png";
 
 const Sidebar = () => {
   return (
     <aside className='aside'>
       <a href="#home" className='nav__logo'>
-        <img src={Logo} alt='' />
+        <img id='logo' src={Logo} alt='' />
       </a>
 
       <nav className='nav'>
@@ -41,7 +41,6 @@ const Sidebar = () => {
         </div>
       </nav>
       <div className='nav__footer'>
-        <i className='icon-emotsmile'></i>
       </div>
     </aside>
   )
