@@ -7,9 +7,12 @@
 }
 
 .intro {
-    max-width: 900px;
+    max-width: auto;
     text-align: center;
-    padding-left: 50%;
+    justify-content: center;
+    margin-left: 5%;
+    align-items: center;
+    margin-top: 20%;
 }
 
 .home__name {
@@ -22,10 +25,12 @@
     display: flex;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
+    justify-content: center;
+    color: var(--title-color);
 }
 
 .home__socials-link {
-    color: var(--title-color);
+    background-color: var(--title-color);
     font-size: 1.3rem;
     transition: .3s;
     align-self: center;
@@ -51,12 +56,26 @@
     margin-top: .75rem;
     border-radius: 1rem;
     position: relative;
+    margin-left: 55%;
 }
 
 @keyframes ani-mouse {
     0% {
         top: 29%;
     }
+
+    15% {
+        top: 50%;
+    }
+
+    50% {
+        top: 50%;
+    }
+
+    100% {
+        top: 29%;
+    }
+
 }
 
 .wheel {

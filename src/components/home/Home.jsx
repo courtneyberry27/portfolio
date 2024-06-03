@@ -8,8 +8,8 @@ const Home = () => {
     <section className='home-container' id='home'>
       <div className='intro'>
           
-          <h1 className='home__name'>Courtney Berry</h1>
-          <span className='home__education'>Full-Stack Developer</span>
+          <h1 className='home__name'>Full-Stack Developer</h1>
+          {/* <span className='home__education'>Full-Stack Developer</span> */}
          
           <HeaderSocials />
 
