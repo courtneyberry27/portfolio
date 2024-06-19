@@ -1,6 +1,6 @@
 import React from 'react';
 import './sidebar.css';
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/new-logo-nowords.png";
 
 const Sidebar = () => {
   return (
@@ -28,12 +28,12 @@ const Sidebar = () => {
               </a>
             </li>
             <li className='nav__item'>
-              <a href="portfolio" className='nav__link'>
+              <a href="#portfolio" className='nav__link'>
                 <i className='icon-notebook'></i>
               </a>
             </li>
             <li className='nav__item'>
-              <a href="contact" className='nav__link'>
+              <a href="#contact" className='nav__link'>
                 <i className='icon-paper-plane'></i>
               </a>
             </li>

@@ -1,3 +1,7 @@
 .main {
   margin-left: 110px;
 }
+
+html {
+  scroll-behavior: smooth;
+}

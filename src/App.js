@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './components/sidebar/Sidebar';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Resume from './components/resume/Resume';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
+import Sidebar from './components/sidebar/Sidebar.jsx';
+import Home from './components/home/Home.jsx';
+import About from './components/about/About.jsx';
+import Resume from './components/resume/Resume.jsx';
+import Portfolio from './components/portfolio/Portfolio.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 function App() {
   return (

@@ -1,0 +1,106 @@
+.about {
+    padding-top: 5%;
+    position: relative;
+    padding-left: 6%;
+}
+
+.about img {
+    max-width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.about__container {
+    grid-template-columns: 4fr 9fr;
+    column-gap: .5rem;
+}
+
+.about__data {
+    padding: 1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+
+.about__description {
+    margin-bottom: 1rem;
+
+}
+
+.about__skills {
+    row-gap: 1.25rem;
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__number {
+    line-height: 1.2;
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar {
+    background-color: #f1f1f1;
+}
+
+.skills__percentage {
+    display: block;
+}
+
+.app-dev {
+    width: 85%;
+    background-color: rgb(243, 99, 99);
+}
+
+.app-arch {
+    width: 60%;
+    background-color: rgb(193, 89, 89);
+}
+
+.ui-ux {
+    width: 60%;
+    background-color: rgb(147, 72, 72);
+}
+
+.ai-ml {
+    width: 60%;
+    background-color: rgb(125, 21, 21)
+}
+
+.about__boxes {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    color: rgb(66, 137, 67);
+}
+
+.about__title {
+    font-size: 1.875rem;
+}

@@ -3,8 +3,8 @@
     left: 0;
     top: 0;
     background: var(--body-color);
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2.5rem;
+    border-right: 1px solid rgba(99, 29, 29, 0.1);
+    padding: 1.5rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 }
 
 .nav__link {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--title-color);
     font-weight: var(--font-bold);
 
