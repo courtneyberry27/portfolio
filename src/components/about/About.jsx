@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import Me from "../../assets/me.JPG";
 import AboutBox from './AboutBox';
+import resume from '../../assets/CourtneyBerry_6158784517.docx'
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
              development.
             i also have experience with AI and machine learning 
             within the scope of application development.</p>
-            <a href="" className='btn'>Download Resume</a>
+            <a href={resume} className='btn'>Download Resume</a>
           </div>
 
           <div className='about__skills grid'>

@@ -7,7 +7,7 @@ const AboutBox = () => {
             <i className='about__icon icon-fire' />
 
             <div>
-                <h3 className='about__title'>198</h3>
+                <h3 className='about__title'>34</h3>
                 <span className='about_subtitle'>Projects completed</span>
             </div>
         </div>
@@ -25,8 +25,8 @@ const AboutBox = () => {
             <i className='about__icon icon-people' />
 
             <div>
-                <h3 className='about__title'>427</h3>
-                <span className='about_subtitle'>Satisfied Clients</span>
+                <h3 className='about__title'>6</h3>
+                <span className='about_subtitle'>Team Projects</span>
             </div>
         </div>
 
@@ -34,8 +34,8 @@ const AboutBox = () => {
             <i className='about__icon icon-badge' />
 
             <div>
-                <h3 className='about__title'>13</h3>
-                <span className='about_subtitle'>Nominees winner</span>
+                <h3 className='about__title'>5</h3>
+                <span className='about_subtitle'>Certifications & Degrees</span>
             </div>
         </div>
     </div>
