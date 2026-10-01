@@ -6,7 +6,7 @@ export const portfolioData = {
     aboutShort: "I create charming, high-performance web apps and resilient backends with love, precision, and a generous sprinkle of strawberry sweetness!",
     location: "Nashville, TN or Remote 🍓",
     status: "🍓 Freshly picked & open for sweet projects!",
-    email: "courtney@berrypatch.com",
+    email: "courtneyberry327@gmail.com",
     github: "https://github.com/courtneyberry27",
     linkedin: "https://www.linkedin.com/in/courtney-berry-675b49196/",
     twitter: "https://twitter.com",
