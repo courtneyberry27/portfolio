@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUp, Heart } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from './Icons';
+import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Footer() {
@@ -49,16 +49,6 @@ export default function Footer() {
             aria-label="LinkedIn Profile"
           >
             <LinkedinIcon size={15} />
-          </a>
-          <a
-            href={personal.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon-btn"
-            style={{ width: '2.2rem', height: '2.2rem' }}
-            aria-label="Twitter / X Profile"
-          >
-            <TwitterIcon size={15} />
           </a>
           <button
             onClick={scrollToTop}

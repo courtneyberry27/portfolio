@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Send, CheckCircle2, Clock, Copy, Check, Heart, Sparkles } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from './Icons';
+import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Contact() {
@@ -159,15 +159,6 @@ export default function Contact() {
                   aria-label="LinkedIn Profile"
                 >
                   <LinkedinIcon size={18} />
-                </a>
-                <a
-                  href={personal.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="social-icon-btn"
-                  aria-label="Twitter / X Profile"
-                >
-                  <TwitterIcon size={18} />
                 </a>
               </div>
             </div>

@@ -9,7 +9,6 @@ export const portfolioData = {
     email: "courtneyberry327@gmail.com",
     github: "https://github.com/courtneyberry27",
     linkedin: "https://www.linkedin.com/in/courtney-berry-675b49196/",
-    twitter: "https://twitter.com",
     stats: [
       { label: "Years Coding Sweets", value: "4+" },
       { label: "Delightful Projects", value: "25+" },
