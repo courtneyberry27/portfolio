@@ -77,14 +77,14 @@ export const portfolioData = {
       featured: true
     },
     {
-      id: "omnicart-ecommerce",
-      title: "Strawberry Shortcake Storefront 🌸",
-      category: "Frontend",
-      description: "An ultra-cute headless e-commerce store with smooth animated transitions, optimistic cart management, product filter tabs, and Stripe checkout integration.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      tags: ["React", "CSS Grid", "Stripe API", "State Management", "Animations"],
-      demoUrl: "https://example.com/demo/omnicart",
-      githubUrl: "https://github.com/courtneyberry27/strawberry-shortcake-store",
+      id: "berrypatch-storefront",
+      title: "BerryPatch Farm Stand Storefront 🧺🍓",
+      category: "Frontend / E-Commerce",
+      description: "An authentic roadside farm stand headless e-commerce produce experience with smooth animated transitions, optimistic bushel basket management, produce filter tabs, half-pound scale stations, and Stripe checkout integration.",
+      image: "./images/berrypatch-storefront.png",
+      tags: ["React 18", "Tailwind CSS", "Vite", "Headless E-Commerce", "Stripe Checkout", "GitHub Pages"],
+      demoUrl: "https://courtneyberry27.github.io/berrypatch-storefront/",
+      githubUrl: "https://github.com/courtneyberry27/berrypatch-storefront",
       featured: true
     },
     {
