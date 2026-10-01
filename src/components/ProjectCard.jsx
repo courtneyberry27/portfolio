@@ -11,6 +11,10 @@ export default function ProjectCard({ project }) {
           alt={project.title}
           className="project-img"
           loading="lazy"
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800&q=80";
+          }}
         />
         <span className="project-category-badge">
           🍓 {project.category}

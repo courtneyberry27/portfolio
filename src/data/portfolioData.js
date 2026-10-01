@@ -103,7 +103,7 @@ export const portfolioData = {
       title: "BerryPulse Wellness Tracker 🥤",
       category: "Frontend",
       description: "A pastel wellness dashboard that tracks daily habits, physical activity, water intake, and mindfulness goals with cute interactive charts and local storage saving.",
-      image: "https://images.unsplash.com/photo-1510519138195-068d828884bb?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "SVG Charts", "LocalStorage", "Accessibility", "CSS3"],
       demoUrl: "https://example.com/demo/pulse",
       githubUrl: "https://github.com/courtneyberry27/berrypulse-wellness",
