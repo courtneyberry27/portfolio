@@ -4,7 +4,7 @@ export const portfolioData = {
     role: "Full Stack Developer & Creative Crafter 🍓",
     tagline: "Brewing sweet web applications, delightful user experiences, and intelligent code.",
     aboutShort: "I create charming, high-performance web apps and resilient backends with love, precision, and a generous sprinkle of strawberry sweetness!",
-    location: "Remote • Available Worldwide 🍓",
+    location: "Nashville, TN or Remote 🍓",
     status: "🍓 Freshly picked & open for sweet projects!",
     email: "courtney@berrypatch.com",
     github: "https://github.com/courtneyberry27",
